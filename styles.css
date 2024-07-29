@@ -3,9 +3,9 @@ body {
     color: rgb(212, 212, 212);
 }
 
-@media only screen and (min-width: 70em) {
+@media only screen and (min-width: 50em) {
     body {
-        width: 70em;
+        width: 50em;
         margin: auto;
     }
 }
