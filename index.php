@@ -31,4 +31,10 @@ if(isset($SESSION['id']) && isset($_SESSION['user_name'])) {
     </body>
 </html>
 
+<?php
+
+} else {
+    header("Location: login-page.php");
+    exit();
 }
+?>
