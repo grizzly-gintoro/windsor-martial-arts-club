@@ -1,4 +1,10 @@
-<!DOCTYPE html>
+<?php
+session_start();
+
+if(isset($SESSION['id']) && isset($_SESSION['user_name'])) {
+    ?>
+
+    <!DOCTYPE html>
     <head>
         <title>WMAC | Home Page</title>
         <meta charset="UTF-8">
@@ -9,6 +15,8 @@
     <body>
         <header>
             <h1>Windsor Martial Arts Club</h1>
+            <p>Logged in as: <?php echo $_SESSION['username']; ?></p>
+            <a href="logout-script.php">Logout</a>
             <nav>
                 <a href="./index.html">| Home |</a>
                 <a href="./training-index.html">| Training Index |</a>
@@ -22,3 +30,5 @@
         </main>
     </body>
 </html>
+
+}
