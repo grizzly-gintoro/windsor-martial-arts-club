@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+    <head>
+        <title>WMAC | Home Page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./reset.css">
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+    <body>
+        <header>
+            <h1>Windsor Martial Arts Club</h1>
+            <nav>
+                <a href="./index.html">| Home |</a>
+                <a href="./training-index.html">| Training Index |</a>
+                <a href="./fighter-profile.html">| Fighter Profile |</a>
+            </nav>
+            <h2>Home Page</h2>
+        </header>
+        <main>
+            <h3>Test</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam aut repudiandae id? Amet sit, corrupti omnis rerum obcaecati doloribus dolore doloremque? Ullam, provident pariatur. Unde blanditiis culpa odio corporis tenetur.</p>
+        </main>
+    </body>
+</html>
